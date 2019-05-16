@@ -33,6 +33,7 @@ header {
 ul {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 0;
 }
 
 .nav-bar {
@@ -66,8 +67,11 @@ ul {
 }
 
 .api-pic {
-  height: 350px;
-
+  width: 100%;
+  height: 22rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .mission {
@@ -94,7 +98,6 @@ p {
 
 .mission {
   text-align: center;
-
 
 }
 
@@ -127,4 +130,8 @@ button {
 
 a:hover {
   background-color: #ffc107;
+}
+
+.explore {
+  margin-top: 0;
 }

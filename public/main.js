@@ -11,9 +11,13 @@ const main = () => {
       document.querySelector('.title').textContent = 'title: ' + message.title
     })
   // fetch('https://sdg-astro-api.herokuapp.com/api/SpaceX/launches/upcoming')
-  // .then(resp =>{
-
-  // })
+  //   .then(resp => {
+  //     console.log(resp)
+  //     return resp.json()
+  //   })
+  //   .then(message => {
+  //       console.log(message)
+  //     }
 }
 
 document.addEventListener('DOMContentLoaded', main)

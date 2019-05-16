@@ -149,7 +149,25 @@ a:hover {
 }
 
 .time {
-  border-bottom: solid gray;
-  border-top: solid gray;
-  margin-right: 15px;
+  border-bottom: solid rgb(207, 207, 207);
+  border-top: solid rgb(207, 207, 207);
+  margin-right: 50px;
+  margin-left: 50px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.name {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.description {
+  padding: 12px;
+  /* padding-bottom: 12px; */
+}
+
+.location {
+  padding-top: 12px;
+  padding-bottom: 12px;
 }

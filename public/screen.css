@@ -31,7 +31,7 @@ header {
 
 ul {
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
 }
 
 .nav-bar {
@@ -42,4 +42,72 @@ ul {
 .about {
   margin-right:
     25px;
+}
+
+.upcoming {
+  background-color: #ffc107;
+  padding: 5px 0 5px 0;
+}
+
+.api-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.api-launch {
+  width: 80%;
+  text-align: center;
+  height: 250px;
+}
+
+.api-pic {
+  height: 350px;
+}
+
+.mission {
+  background-color: #D1C4E9
+}
+
+footer {
+  background-color: #512DA8;
+  padding: 5px 0 5px 0;
+  color: white;
+  text-align: center;
+}
+
+.sdg {
+  color: white;
+}
+
+p {
+  font-size: 1.25rem;
+  margin: 0;
+  padding: 3rem;
+  padding-top: 2rem;
+}
+
+.mission {
+  text-align: center;
+
+}
+
+.statement {
+  padding-top: 2rem;
+}
+
+button {
+  width: 6rem;
+  height: 3rem;
+  background-color: #ffc107;
+  margin-top: 100px;
+}
+
+.btn-left {
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.btn-right {
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
 }

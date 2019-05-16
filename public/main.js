@@ -4,10 +4,5 @@ const main = () => {
       console.log(resp)
       return resp.json()
     })
-    .then(image => {
-      console.log({
-        image
-      })
-    })
 }
 document.addEventListener('DOMContentLoaded', main)

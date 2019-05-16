@@ -134,4 +134,22 @@ a:hover {
 
 .explore {
   margin-top: 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding-top: 175px;
+}
+
+.img-description {
+  display: flex;
+  justify-content: center;
+}
+
+.time {
+  border-bottom: solid gray;
+  border-top: solid gray;
+  margin-right: 15px;
 }

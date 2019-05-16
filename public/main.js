@@ -5,4 +5,5 @@ const main = () => {
       return resp.json()
     })
 }
+
 document.addEventListener('DOMContentLoaded', main)

@@ -89,25 +89,37 @@ p {
 .mission {
   text-align: center;
 
+
 }
 
 .statement {
   padding-top: 2rem;
+  margin-top: 0;
 }
 
 button {
   width: 6rem;
   height: 3rem;
   background-color: #ffc107;
-  margin-top: 100px;
+  margin-top: 75%;
+  margin-bottom: 75%;
+  font-size: 1.75rem;
 }
 
 .btn-left {
   border-bottom-right-radius: 50px;
   border-top-right-radius: 50px;
+  margin-top: 125px;
+
 }
 
 .btn-right {
   border-bottom-left-radius: 50px;
   border-top-left-radius: 50px;
+  margin-top: 125px;
+}
+
+.api-launch {
+  background-color: #ededed;
+  margin: 2%;
 }

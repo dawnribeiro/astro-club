@@ -27,6 +27,7 @@ header {
 .about,
 .contact {
   color: white;
+  padding: 20px;
 }
 
 ul {
@@ -52,16 +53,21 @@ ul {
 .api-container {
   display: flex;
   justify-content: space-between;
+
 }
 
 .api-launch {
   width: 80%;
   text-align: center;
   height: 250px;
+  background-color: #ededed;
+  margin: 2%;
+  border-radius: 5px
 }
 
 .api-pic {
   height: 350px;
+
 }
 
 .mission {
@@ -119,7 +125,6 @@ button {
   margin-top: 125px;
 }
 
-.api-launch {
-  background-color: #ededed;
-  margin: 2%;
+a:hover {
+  background-color: #ffc107;
 }

@@ -78,13 +78,13 @@ ul {
   justify-content: center;
   align-content: center;
   align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .time-container {
   display: flex;
-  /* justify-content: center;
-  align-content: center;
-  align-items: center; */
+  padding-left: 20px;
 }
 
 .location-container {
@@ -92,6 +92,8 @@ ul {
   justify-content: center;
   align-content: center;
   align-items: center;
+  padding-left: 20px;
+  padding-right: 20px
 }
 
 .api-pic {
@@ -199,6 +201,8 @@ a:hover {
   padding-top: 12px;
   padding-bottom: 12px;
   margin-left: 10px;
+  font-size: 1.25rem;
+  font-weight: bold;
 
 }
 

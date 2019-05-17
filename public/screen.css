@@ -143,6 +143,10 @@ button {
   font-size: 1.75rem;
 }
 
+button:active {
+  background-color: #512DA8;
+}
+
 .btn-left {
   border-bottom-right-radius: 50px;
   border-top-right-radius: 50px;

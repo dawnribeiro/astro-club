@@ -24,5 +24,16 @@ const main = () => {
       document.querySelector('.location').textContent = message[0].launch_site.site_name_long
 
     })
+
+  // var slides = document.querySelector("mySlides");
+  // if (n > slides.length) {
+  //   slideIndex = 1
+  // }
+  // if (n < 1) {
+  //   slideIndex = slides.length
+  // }
+  // for (i = 0; i < slides.length; i++) {
+  //   slides[i].style.display = "none";
+  // }
 }
 document.addEventListener('DOMContentLoaded', main)

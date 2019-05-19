@@ -16,7 +16,8 @@ ul {
 }
 
 header {
-  background-color: #512DA8
+  background-color: #512DA8;
+  height: 68px;
 }
 
 .sdg-header {
@@ -42,8 +43,18 @@ ul {
 }
 
 .about {
-  margin-right:
-    25px;
+  margin-right: 25px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+}
+
+.contact {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 25px;
+  padding-left: 20px;
 }
 
 .upcoming {
